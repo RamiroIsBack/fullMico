@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <h1>{{ create Feria }}</h1>
+    <form action ="/api/feria" method = "post">
+        <input type="text" name="nombreFeria" placeholder="nombreFeria"><br/>
+        <input type="text" name="fechaFeria" placeholder="fechaFeria"><br/>
+        <input type="text" name="lugarFeria" placeholder="lugarFeria"><br/>
+        <input type="text" name="direccionFeria" placeholder="direccionFeria"><br/>
+        <input type="checkbox" name="todoElGenero" placeholder="todoElGenero"><br/>
+        <input type="text" name="cartelFeria" placeholder="cartelFeria"><br/>
+        <input type="text" name="urlFeria" placeholder="urlFeria"><br/>
+
+        <input type="submit" value="create feria"><br/>
+    </form>
+  </body>
+</html>
+
