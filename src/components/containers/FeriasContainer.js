@@ -18,7 +18,7 @@ export default class FeriasContainer extends React.Component {
         
         const listItem = this.state.list.map((feria,i)=>{
             return(
-                <div><Feria propiedades ={feria}/></div>
+                <div key ={i}><Feria propiedades ={feria}/></div>
             )
         })
         return(

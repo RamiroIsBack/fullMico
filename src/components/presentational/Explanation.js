@@ -9,9 +9,9 @@ export default class Explanation extends React.Component {
     render(){
         return(
             <div class = "container" >
-                <div>{this.props.propiedades.calle}</div><br/>
+                <div>{this.props.propiedades.direccionFeria}</div><br/>
                 
-                 <div>{this.props.propiedades.fecha} </div>
+                 <div>{this.props.propiedades.fechaFeria} </div>
                 <hr/>
             </div>
             

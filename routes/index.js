@@ -12,4 +12,7 @@ router.get("/createferia", function(req, res, next) {
 router.get("/deleteferia", function(req, res, next) {
     res.render("deleteferia", null);
 });
+router.get("/alba", function(req, res, next) {
+    res.render("alba", null);
+});
 module.exports = router;
